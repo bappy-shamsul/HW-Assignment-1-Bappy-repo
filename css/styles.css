@@ -161,43 +161,39 @@ span {
 /* footer style */
 .container-footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 100px;
     height: 500px;
     background: black;
     color: white;
 }
 .content-footer{
-    margin: 50px 150px 0px;
+    margin: 50px 50px 0px;
 }
 .footer-head-left{
     font-size: 42px;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin: 50px 0px 20px 200px;
 }
 .footer-head-right{
     font-size: 22px;
+    margin: 50px 0px 20px 0px;
+}
+.footer-detail-left, .email, .mobile{
+    margin: 0px 50px 15px 200px;
     
-   
-}
-.footer-detail-left{
-    margin-bottom: 15px;
-    margin-right: 650px;
-}
-.email, .mobile{
-    margin-bottom: 15px;
 }
 
 .footer-icon{
     display: flex;
     gap: 20px;
-    margin-top: 30px;
+    margin: 30px 200px;
 }
 
 .footer-form{
     margin-top: 15px;
 }
 .form-field-email{
-    margin-bottom: 15px;
+    margin: 5px 400px 15px 0px;
     padding-left: 20px;
     width: 250px;
     height: 45px;
